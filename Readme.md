@@ -23,7 +23,7 @@ It is used to get the number of unemployed people in a time interval
 
 ### URL example:
 
-http://localhost:8000/history/?county-id=42&from-month=5&from-year=2020&to-month=8&to-year=2020
+https://unemployment-rate-web-api.herokuapp.com/history/?county-id=42&from-month=5&from-year=2020&to-month=8&to-year=2020
 
 
 ## History by age endpoint
@@ -38,7 +38,7 @@ It is used to get the number of unemployed people from a chosen month  by age
 
 ### URL example:
 
-http://localhost:8000/history/age/?county-id=42&month=5&year=2020
+https://unemployment-rate-web-api.herokuapp.com/history/age/?county-id=42&month=5&year=2020
 
 
 ## History by sex endpoint
@@ -53,4 +53,4 @@ It is used to get the number of unemployed people from a chosen month by sex
 
 ### URL example:
 
-http://localhost:8000/history/sex/?county-id=42&month=5&year=2020
+https://unemployment-rate-web-api.herokuapp.com/history/sex/?county-id=42&month=5&year=2020

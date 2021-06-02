@@ -7,7 +7,9 @@ This API provides different statistics related to the unemployment rate in Romai
 - /history/age/
 - /history/sex/
 
+## Root URL
 
+https://unemployment-rate-web-api.herokuapp.com
 
 ## History endpoint
 

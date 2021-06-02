@@ -1,1 +1,1 @@
-web: cs static && gunicorn server:app --reload
+web: cd static && gunicorn server:app --reload

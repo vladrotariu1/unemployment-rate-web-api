@@ -1,4 +1,4 @@
-from static.builder import build_response_body, build_error_body
+from static.builder import build_error_body
 from database.db_singleton import Database
 from static.months import get_month
 
@@ -56,5 +56,8 @@ def get_history(parameters):
     if not(from_month >= 1 and from_month <= 12) or not(to_month >= 1 and to_month <= 12):
         return build_error_body('400', 'Id-ul lunii trebuie sa fie un numar in intervalul 1-12'), '400'
 
-    data = get_history_data(county_id, from_month, from_year, to_month, to_year)
-    return data, '200'
+    try:
+        data = get_history_data(county_id, from_month, from_year, to_month, to_year)
+        return data, '200'
+    except:
+        return build_error_body('400', 'Nu exista date disponibile'), '400'

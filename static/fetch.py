@@ -3,6 +3,8 @@ import sys
 sys.path.append("..")
 from urllib.parse import urlparse, parse_qs
 from model.history_DAO import get_history
+from model.history_sex_DAO import get_history_by_sex
+from model.history_age_DAO import get_history_by_age
 from static.builder import build_response_body, build_error_body
 
 

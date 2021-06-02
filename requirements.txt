@@ -13,6 +13,4 @@ requests-unixsocket==0.1.5
 SecretStorage==2.3.1
 service-identity==16.0.0
 six==1.16.0
-ufw==0.36
-unattended-upgrades==0.1
 urllib3==1.22

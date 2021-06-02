@@ -1,0 +1,1 @@
+web: cs static && gunicorn server:app --reload
